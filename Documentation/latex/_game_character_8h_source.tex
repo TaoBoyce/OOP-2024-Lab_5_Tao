@@ -1,0 +1,28 @@
+\doxysection{Game\+Character.\+h}
+\hypertarget{_game_character_8h_source}{}\label{_game_character_8h_source}\index{C:/Users/Tao/OneDrive -\/ Conestoga College/Desktop/Conestoga College Classes/Semester 2/Object Oriented Programming/Labs/Lab 5/Lab\_5\_Tao/Lab5/GameCharacter.h@{C:/Users/Tao/OneDrive -\/ Conestoga College/Desktop/Conestoga College Classes/Semester 2/Object Oriented Programming/Labs/Lab 5/Lab\_5\_Tao/Lab5/GameCharacter.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#define\ TOOLS\_COUNT\ 3}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_game_character}{GameCharacter}}\ \{}
+\DoxyCodeLine{00009\ \ \ \ \ std::string\ \mbox{\hyperlink{class_game_character_a3d05fd6806395958566f3aec73dd7adb}{name}};}
+\DoxyCodeLine{00014\ \ \ \ \ std::string*\ \mbox{\hyperlink{class_game_character_a6da6837a1303f6325bde66777b83bfc8}{tools}};}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00020\ \ \ \ \ \mbox{\hyperlink{class_game_character_a58bf6a0782ff3f303c1ef35cd71f9598}{GameCharacter}}();}
+\DoxyCodeLine{00028\ \ \ \ \ \mbox{\hyperlink{class_game_character_a4307ba8fafac1d97e678d10b6ec09ec0}{GameCharacter}}(std::string\ \mbox{\hyperlink{class_game_character_a3d05fd6806395958566f3aec73dd7adb}{name}},\ std::string*\ \mbox{\hyperlink{class_game_character_a6da6837a1303f6325bde66777b83bfc8}{tools}},\ \textcolor{keywordtype}{int}\ arrLen);}
+\DoxyCodeLine{00034\ \ \ \ \ \mbox{\hyperlink{class_game_character_a58bf6a0782ff3f303c1ef35cd71f9598}{GameCharacter}}(\mbox{\hyperlink{class_game_character}{GameCharacter}}\&\ rhs);}
+\DoxyCodeLine{00040\ \ \ \ \ \mbox{\hyperlink{class_game_character}{GameCharacter}}\&\ \mbox{\hyperlink{class_game_character_a9fd472e57830e3cb5f65a2ea37bba74a}{operator\ =\ }}(\mbox{\hyperlink{class_game_character}{GameCharacter}}\&\ rhs);}
+\DoxyCodeLine{00044\ \ \ \ \ \mbox{\hyperlink{class_game_character_a106102251fb6089f08a8a5b45eee7553}{\string~GameCharacter}}();}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00049\ \ \ \ \ \mbox{\hyperlink{class_game_character}{GameCharacter}}\&\ \mbox{\hyperlink{class_game_character_ae731682791c7f19c9ce95df58e0d1fb9}{setName}}(std::string\ \mbox{\hyperlink{class_game_character_a3d05fd6806395958566f3aec73dd7adb}{name}});}
+\DoxyCodeLine{00052\ \ \ \ \ std::string\ \mbox{\hyperlink{class_game_character_acdb70138aa5b1dc6109b5f1b484d41d9}{getName}}();}
+\DoxyCodeLine{00059\ \ \ \ \ \mbox{\hyperlink{class_game_character}{GameCharacter}}\&\ \mbox{\hyperlink{class_game_character_aaaf488f8821b4679f447f0b317f4501f}{setTools}}(std::string\ \mbox{\hyperlink{class_game_character_a6da6837a1303f6325bde66777b83bfc8}{tools}}[TOOLS\_COUNT],\ \textcolor{keywordtype}{int}\ arrLen);}
+\DoxyCodeLine{00062\ \ \ \ \ std::string*\ \mbox{\hyperlink{class_game_character_aef854668f531a3ede28d1750d3557a74}{getTools}}();}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00068\ \ \ \ \ \textcolor{keyword}{friend}\ std::ostream\&\ \mbox{\hyperlink{class_game_character_a9106ab3b4237c61700aae7bd8ba8730d}{operator\ <<\ }}(std::ostream\&\ cout\_,\ \mbox{\hyperlink{class_game_character}{GameCharacter}}\&\ gc);}
+\DoxyCodeLine{00069\ \};}
+
+\end{DoxyCode}

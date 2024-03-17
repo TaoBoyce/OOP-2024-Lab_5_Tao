@@ -1,0 +1,229 @@
+\doxysection{Game\+Character Class Reference}
+\hypertarget{class_game_character}{}\label{class_game_character}\index{GameCharacter@{GameCharacter}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_character_a58bf6a0782ff3f303c1ef35cd71f9598}{Game\+Character}} ()
+\begin{DoxyCompactList}\small\item\em Default Constructor. Initializes with all "{}"{} values. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_game_character_a4307ba8fafac1d97e678d10b6ec09ec0}{Game\+Character}} (std\+::string \mbox{\hyperlink{class_game_character_a3d05fd6806395958566f3aec73dd7adb}{name}}, std\+::string \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_game_character_a6da6837a1303f6325bde66777b83bfc8}{tools}}, int arr\+Len)
+\begin{DoxyCompactList}\small\item\em Parameterized Constructor. Initializes with parameters. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_game_character_a41b349f834039f449baf27755b73e51b}{Game\+Character}} (\mbox{\hyperlink{class_game_character}{Game\+Character}} \&rhs)
+\begin{DoxyCompactList}\small\item\em Copy Constructor. Initializes with copy. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_game_character}{Game\+Character}} \& \mbox{\hyperlink{class_game_character_a9fd472e57830e3cb5f65a2ea37bba74a}{operator=}} (\mbox{\hyperlink{class_game_character}{Game\+Character}} \&rhs)
+\begin{DoxyCompactList}\small\item\em Assignment Operator. Sets left hand side to right hand side. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_game_character_a106102251fb6089f08a8a5b45eee7553}{\texorpdfstring{$\sim$}{\string~}\+Game\+Character}} ()
+\begin{DoxyCompactList}\small\item\em Deallocate memory. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_game_character}{Game\+Character}} \& \mbox{\hyperlink{class_game_character_ae731682791c7f19c9ce95df58e0d1fb9}{set\+Name}} (std\+::string \mbox{\hyperlink{class_game_character_a3d05fd6806395958566f3aec73dd7adb}{name}})
+\begin{DoxyCompactList}\small\item\em Sets the name of the Game Character. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_game_character_acdb70138aa5b1dc6109b5f1b484d41d9}{get\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Gets the current name of the Game Character. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_game_character}{Game\+Character}} \& \mbox{\hyperlink{class_game_character_aaaf488f8821b4679f447f0b317f4501f}{set\+Tools}} (std\+::string \mbox{\hyperlink{class_game_character_a6da6837a1303f6325bde66777b83bfc8}{tools}}\mbox{[}TOOLS\+\_\+\+COUNT\mbox{]}, int arr\+Len)
+\begin{DoxyCompactList}\small\item\em Sets the tools of the Game Character. \end{DoxyCompactList}\item 
+std\+::string \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_game_character_aef854668f531a3ede28d1750d3557a74}{get\+Tools}} ()
+\begin{DoxyCompactList}\small\item\em Gets the tools of the Game Character. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_game_character_a3d05fd6806395958566f3aec73dd7adb}{name}}
+\begin{DoxyCompactList}\small\item\em The name of the Game Character. \end{DoxyCompactList}\item 
+std\+::string \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_game_character_a6da6837a1303f6325bde66777b83bfc8}{tools}}
+\begin{DoxyCompactList}\small\item\em The tools the Game Character uses. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_game_character_a9106ab3b4237c61700aae7bd8ba8730d}{operator$<$$<$}} (std\+::ostream \&cout\+\_\+, \mbox{\hyperlink{class_game_character}{Game\+Character}} \&gc)
+\begin{DoxyCompactList}\small\item\em Prints the name and tools of the Game Character. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_game_character_a58bf6a0782ff3f303c1ef35cd71f9598}\label{class_game_character_a58bf6a0782ff3f303c1ef35cd71f9598} 
+\index{GameCharacter@{GameCharacter}!GameCharacter@{GameCharacter}}
+\index{GameCharacter@{GameCharacter}!GameCharacter@{GameCharacter}}
+\doxysubsubsection{\texorpdfstring{GameCharacter()}{GameCharacter()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Game\+Character\+::\+Game\+Character (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default Constructor. Initializes with all "{}"{} values. 
+
+Allocates tools to the heap. \Hypertarget{class_game_character_a4307ba8fafac1d97e678d10b6ec09ec0}\label{class_game_character_a4307ba8fafac1d97e678d10b6ec09ec0} 
+\index{GameCharacter@{GameCharacter}!GameCharacter@{GameCharacter}}
+\index{GameCharacter@{GameCharacter}!GameCharacter@{GameCharacter}}
+\doxysubsubsection{\texorpdfstring{GameCharacter()}{GameCharacter()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Game\+Character\+::\+Game\+Character (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{std\+::string \texorpdfstring{$\ast$}{*}}]{tools,  }\item[{int}]{arr\+Len }\end{DoxyParamCaption})}
+
+
+
+Parameterized Constructor. Initializes with parameters. 
+
+Allocates tools to the heap. Initializes assuming that input parameter tools is an array that is TOOLS\+\_\+\+COUNT long. 
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the Game Character. \\
+\hline
+{\em tools} & The tools the Game Character uses. Has a maximum number of tools\+: TOOLS\+\_\+\+COUNT. \\
+\hline
+{\em arr\+Len} & The length of the input array. Must not be bigger than TOOLS\+\_\+\+COUNT to be valid. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_game_character_a41b349f834039f449baf27755b73e51b}\label{class_game_character_a41b349f834039f449baf27755b73e51b} 
+\index{GameCharacter@{GameCharacter}!GameCharacter@{GameCharacter}}
+\index{GameCharacter@{GameCharacter}!GameCharacter@{GameCharacter}}
+\doxysubsubsection{\texorpdfstring{GameCharacter()}{GameCharacter()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Game\+Character\+::\+Game\+Character (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_game_character}{Game\+Character}} \&}]{rhs }\end{DoxyParamCaption})}
+
+
+
+Copy Constructor. Initializes with copy. 
+
+Allocates tools to the heap. Creates a deep copy of tools. 
+\begin{DoxyParams}{Parameters}
+{\em rhs} & The Game Character that is being copied from. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_game_character_a106102251fb6089f08a8a5b45eee7553}\label{class_game_character_a106102251fb6089f08a8a5b45eee7553} 
+\index{GameCharacter@{GameCharacter}!````~GameCharacter@{\texorpdfstring{$\sim$}{\string~}GameCharacter}}
+\index{````~GameCharacter@{\texorpdfstring{$\sim$}{\string~}GameCharacter}!GameCharacter@{GameCharacter}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}GameCharacter()}{\string~GameCharacter()}}
+{\footnotesize\ttfamily Game\+Character\+::\texorpdfstring{$\sim$}{\string~}\+Game\+Character (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Deallocate memory. 
+
+Deallocates tools from the heap. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_game_character_acdb70138aa5b1dc6109b5f1b484d41d9}\label{class_game_character_acdb70138aa5b1dc6109b5f1b484d41d9} 
+\index{GameCharacter@{GameCharacter}!getName@{getName}}
+\index{getName@{getName}!GameCharacter@{GameCharacter}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily string Game\+Character\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the current name of the Game Character. 
+
+\begin{DoxyReturn}{Returns}
+The current name of the character. 
+\end{DoxyReturn}
+\Hypertarget{class_game_character_aef854668f531a3ede28d1750d3557a74}\label{class_game_character_aef854668f531a3ede28d1750d3557a74} 
+\index{GameCharacter@{GameCharacter}!getTools@{getTools}}
+\index{getTools@{getTools}!GameCharacter@{GameCharacter}}
+\doxysubsubsection{\texorpdfstring{getTools()}{getTools()}}
+{\footnotesize\ttfamily string \texorpdfstring{$\ast$}{*} Game\+Character\+::get\+Tools (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the tools of the Game Character. 
+
+\begin{DoxyReturn}{Returns}
+The pointer to the tools in the heap. 
+\end{DoxyReturn}
+\Hypertarget{class_game_character_a9fd472e57830e3cb5f65a2ea37bba74a}\label{class_game_character_a9fd472e57830e3cb5f65a2ea37bba74a} 
+\index{GameCharacter@{GameCharacter}!operator=@{operator=}}
+\index{operator=@{operator=}!GameCharacter@{GameCharacter}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_game_character}{Game\+Character}} \& Game\+Character\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_game_character}{Game\+Character}} \&}]{rhs }\end{DoxyParamCaption})}
+
+
+
+Assignment Operator. Sets left hand side to right hand side. 
+
+Does a deep copy of tools. 
+\begin{DoxyParams}{Parameters}
+{\em rhs} & The Game Character that is being copied from. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The left hand side of the assignment operator. (=) 
+\end{DoxyReturn}
+\Hypertarget{class_game_character_ae731682791c7f19c9ce95df58e0d1fb9}\label{class_game_character_ae731682791c7f19c9ce95df58e0d1fb9} 
+\index{GameCharacter@{GameCharacter}!setName@{setName}}
+\index{setName@{setName}!GameCharacter@{GameCharacter}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_game_character}{Game\+Character}} \& Game\+Character\+::set\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+
+
+Sets the name of the Game Character. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & New name of the character. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Game Character that is being changed. 
+\end{DoxyReturn}
+\Hypertarget{class_game_character_aaaf488f8821b4679f447f0b317f4501f}\label{class_game_character_aaaf488f8821b4679f447f0b317f4501f} 
+\index{GameCharacter@{GameCharacter}!setTools@{setTools}}
+\index{setTools@{setTools}!GameCharacter@{GameCharacter}}
+\doxysubsubsection{\texorpdfstring{setTools()}{setTools()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_game_character}{Game\+Character}} \& Game\+Character\+::set\+Tools (\begin{DoxyParamCaption}\item[{std\+::string}]{tools\mbox{[}\+TOOLS\+\_\+\+COUNT\mbox{]},  }\item[{int}]{arr\+Len }\end{DoxyParamCaption})}
+
+
+
+Sets the tools of the Game Character. 
+
+Sets tools in the character up to arr\+Len. Any tools remaining to be set will be set with "{}"{}. 
+\begin{DoxyParams}{Parameters}
+{\em tools} & The tools of the character. A string array. \\
+\hline
+{\em arr\+Len} & The length of the input array. Must not be bigger than TOOLS\+\_\+\+COUNT to be valid. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Game Character that is being changed. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Friends And Related Symbol Documentation}
+\Hypertarget{class_game_character_a9106ab3b4237c61700aae7bd8ba8730d}\label{class_game_character_a9106ab3b4237c61700aae7bd8ba8730d} 
+\index{GameCharacter@{GameCharacter}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!GameCharacter@{GameCharacter}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{cout\+\_\+,  }\item[{\mbox{\hyperlink{class_game_character}{Game\+Character}} \&}]{gc }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Prints the name and tools of the Game Character. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cout\+\_\+} & A reference to cout. \\
+\hline
+{\em gc} & The game character being printed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Cout, with the prints added. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_game_character_a3d05fd6806395958566f3aec73dd7adb}\label{class_game_character_a3d05fd6806395958566f3aec73dd7adb} 
+\index{GameCharacter@{GameCharacter}!name@{name}}
+\index{name@{name}!GameCharacter@{GameCharacter}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily std\+::string Game\+Character\+::name\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The name of the Game Character. 
+
+What others call the Game Character. \Hypertarget{class_game_character_a6da6837a1303f6325bde66777b83bfc8}\label{class_game_character_a6da6837a1303f6325bde66777b83bfc8} 
+\index{GameCharacter@{GameCharacter}!tools@{tools}}
+\index{tools@{tools}!GameCharacter@{GameCharacter}}
+\doxysubsubsection{\texorpdfstring{tools}{tools}}
+{\footnotesize\ttfamily std\+::string\texorpdfstring{$\ast$}{*} Game\+Character\+::tools\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The tools the Game Character uses. 
+
+Has a maximum number of tools\+: TOOLS\+\_\+\+COUNT. It\textquotesingle{}s a pointer to a tools array that has been allocated in the heap. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Tao/\+One\+Drive -\/ Conestoga College/\+Desktop/\+Conestoga College Classes/\+Semester 2/\+Object Oriented Programming/\+Labs/\+Lab 5/\+Lab\+\_\+5\+\_\+\+Tao/\+Lab5/Game\+Character.\+h\item 
+C\+:/\+Users/\+Tao/\+One\+Drive -\/ Conestoga College/\+Desktop/\+Conestoga College Classes/\+Semester 2/\+Object Oriented Programming/\+Labs/\+Lab 5/\+Lab\+\_\+5\+\_\+\+Tao/\+Lab5/Game\+Character.\+cpp\end{DoxyCompactItemize}
